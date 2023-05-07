@@ -1,0 +1,7 @@
+km = float(input('Quantos quilometros você percorreu? '))
+d = int(input('Quantos dias você ficou com o carro:? '))
+r = (km * 0.15) + (d * 60)
+print('\nSegue sua Fatura')
+print('Km: {}'.format(km))
+print('Dias: {}'.format(d))
+print('Total a Pagar: R$ {:.2f}.'.format(r))
